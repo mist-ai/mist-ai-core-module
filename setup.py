@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.1.2"
-DESCRIPTION = 'PyPi Template for mist.ai'
-LONG_DESCRIPTION = 'A PyPi package from mist.ai that can be used as a template. Code can be found on GitHub.'
+VERSION = "0.1.0"
+DESCRIPTION = 'Core gRPC Modules for mist.ai'
+LONG_DESCRIPTION = 'A PyPi package from mist.ai that can be used as a centralized gRPC collection for all services. Code can be found on GitHub.'
 
 # Setting up
 setup(
-    name="mistai_hello",
+    name="mistai_grpc",
     version=VERSION,
     author="Team mist.ai",
     author_email="sandev.20@cse.mrt.ac.lk",
